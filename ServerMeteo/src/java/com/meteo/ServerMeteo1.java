@@ -9,9 +9,9 @@ public class ServerMeteo1 {
     @WebMethod
     public String getWeather(String city, String country) {
         if (city.equalsIgnoreCase("Alger") && country.equalsIgnoreCase("Algeria")) {
-            return "الطقس في الجزائر: مشمس، 25°C";
+            return "25";
         } else {
-            return "لم يتم العثور على بيانات الطقس لهذه المدينة.";
+            return "not found";
         }
     }
 }
