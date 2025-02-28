@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:9226/ServerMeteo/ServerMeteo1Service?WSDL" uri="xml-resources/web-service-references/ServerMeteo1Service/wsdl/localhost_9226/ServerMeteo/ServerMeteo1Service.wsdl"/>
+    <system systemId="http://localhost:9226/ServerMeteo/ServerMeteo1Service?xsd=1" uri="xml-resources/web-service-references/ServerMeteo1Service/wsdl/localhost_9226/ServerMeteo/ServerMeteo1Service.xsd_1.xsd"/>
+</catalog>
