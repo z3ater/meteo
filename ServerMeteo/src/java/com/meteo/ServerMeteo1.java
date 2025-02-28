@@ -9,7 +9,7 @@ public class ServerMeteo1 {
     @WebMethod
     public String getWeather(String city, String country) {
         if (city.equalsIgnoreCase("Alger") && country.equalsIgnoreCase("Algeria")) {
-            return "25";
+            return "36";
         } else {
             return "not found";
         }
